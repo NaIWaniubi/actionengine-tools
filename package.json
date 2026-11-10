@@ -1,0 +1,36 @@
+{
+  "name": "@naiawaniubi/actionengine-tools",
+  "version": "0.1.0",
+  "description": "行动引擎的赛题无关工具层：Provider 三级降级链、表格统计、文本兜底理解、ICS 导出、CSV 解析。切主题只换表单/提示词/规则，骨架不变。",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/tools/index.ts",
+  "types": "./src/tools/index.ts",
+  "exports": {
+    ".": "./src/tools/index.ts"
+  },
+  "files": [
+    "src/tools",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"本包无运行时依赖；请在主仓库跑 npm run selfcheck / eval\"",
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.3",
+    "@types/papaparse": "^5.3.14"
+  },
+  "keywords": [
+    "llm",
+    "fallback",
+    "rules-engine",
+    "action-items",
+    "ics",
+    "csv"
+  ],
+  "dependencies": {
+    "papaparse": "^5.4.1"
+  }
+}
