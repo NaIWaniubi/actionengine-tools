@@ -59,6 +59,16 @@ const suggestions = await provider.polish([], insight);
 const ics = buildIcs(actions);
 ```
 
+## 完整作品在哪
+
+这个包是**工具层**，不是完整作品。完整作品（四个模块的流水线 UI、五主题包、
+2 分钟 Demo 视频、项目介绍网站）保留在主仓 `NaIWaniubi/bayhack-actionengine-skeleton`，
+该仓为 **private** —— 按赛事要求，参赛期间保持私有。
+
+评委看这个公开包是为了确认：工具层是真实可跑的工程（不是 PPT），
+而且**通用骨架赛前已开源**符合黑客松惯例。主题相关的场景定义、提示词、
+规则集与演示数据在主仓与现场产出里。
+
 ## 为什么单独发这个包
 
 完整作品在 **BayHack 2026** 现场 48 小时开发窗口内完成（12/18–12/20，广东佛山）。
