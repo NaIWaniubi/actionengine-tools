@@ -32,8 +32,15 @@ selectProvider()
 
 ## 安装
 
+本包尚未发布到 npm registry。用 git 直接安装，或 clone 后本地 link：
+
 ```bash
-npm install @naiawaniubi/actionengine-tools
+# 方式一：从 GitHub 直接装
+npm install github:NaIWaniubi/actionengine-tools
+
+# 方式二：clone 后本地链接（可改可调试）
+git clone https://github.com/NaIWaniubi/actionengine-tools.git
+cd actionengine-tools && npm install && npm link
 ```
 
 ## 用法
